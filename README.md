@@ -1,5 +1,5 @@
-# Página de Tributo Steve Jobs 🍎
-Este repositorio contiene el legado y la línea de vida del que fue el CEO más famoso e icónico de Apple, Steve Jobs. Desarrollado como proyecto final del curso de Web Responsive Design, la estructura y el diseño se han realizado utilizando solo HTML y CSS.
+# Steve Jobs - Página de Tributo 🍎
+Este repositorio contiene el legado y la línea de vida del que fue el CEO más famoso e icónico de Apple, Steve Jobs. Desarrollado como proyecto final del curso Web Responsive Design de freeCodeCamp, la estructura y el diseño se han realizado utilizando solo HTML y CSS.
 
 ## Descripción
 La página contiene documentación sobre Steve Jobs, antiguo CEO de Apple. La interfaz se ha diseñado de manera sencilla y minimalista dando protagonismo al texto.
