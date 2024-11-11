@@ -1,0 +1,162 @@
+
+/* ESTILOS GENERALES */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Helvetica, sans-serif;
+    color: #363636;
+    background-color: #fff;
+}
+
+
+/*-------------------------------*/
+
+
+/* ESTILO CONTENIDO GENERAL */
+
+#main{
+    margin: 30px 10px;
+    background-color: #eee;
+    border-radius: 5px;
+}
+
+
+/*-------------------------------*/
+
+
+/* ESTILO TÍTULO */
+
+#title{ /* Contenedor */
+    text-align: center;
+    padding: 50px 0 20px 0;
+}
+
+#title h1{ /* Título */
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+#title p{ /* Texto */
+    font-size: 1.1em;
+}
+
+
+/*-------------------------------*/
+
+
+/* ESTILO IMAGEN */
+
+#img-div{ /* Contenedor */
+    background-color: #fff;
+    margin: 0 20px;
+    padding: 20px 0;
+}
+
+#img-div #image{ /* Contenedor + imagen */
+    margin: 0 auto;
+}
+
+#image{ /* imagen */
+    max-width: 100%;
+    width: 60%;
+    height: auto;
+}
+
+#img-caption{ /* pie de página de la imagen */
+    text-align: center;
+}
+
+#img-caption p{ /* texto */
+    font-size: 1em;
+    margin-top: 15px;
+}
+
+
+/*-------------------------------*/
+
+
+/* LÍNEA DE VIDA */
+
+#tribute-info{ /* Contenedor */
+    margin: 60px auto;
+    width: 33%;
+}
+
+#tribute-info h2{  /* Subtítulo */
+    font-size: 1.3em;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+#tribute-info ul li{ /* Lista */
+    font-size: 1.1em;
+    margin-bottom: 25px;
+    line-height: 1.5em;
+    text-align: justify;
+}
+
+#tribute-info ul li:last-child{ /* Quitamos el margin bottom al último elemento de la lista */
+    margin-bottom: 0;
+}
+
+#tribute-info ul li span{ /* Oscurecemos las fechas para diferenciarlas del resto del texto */
+    font-weight: 600;
+}
+
+
+/*-------------------------------*/
+
+
+/* NOTA DEL AUTOR */
+
+#tribute-note{ /* Contenedor */
+    background-color: #fff;
+    padding: 20px 0;
+    margin: 0 20px;
+    text-align: justify;
+}
+
+#quote{ /* Nota */
+    width: 60%;
+    font-size: 1.3em;
+    font-style: italic; 
+    line-height: 1.5em;
+    margin: 0 auto;
+}
+
+/* Los estilos del id "author" están puestos en el html */
+
+
+/*-------------------------------*/
+
+
+/* MÁS INFORMACIÓN */
+
+#tribute-data{ /* Contenedor */
+    padding: 35px 0;
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: 600;
+}
+
+#tribute-data a{ /* Enlace */
+    color: rgb(97, 53, 138);
+}
+
+
+/*-------------------------------*/
+
+
+/* RESPONSIVE */
+
+@media (max-width: 1100px) {
+
+    #tribute-info{ /* Contenedor */
+        width: 40%;
+    }
+}
