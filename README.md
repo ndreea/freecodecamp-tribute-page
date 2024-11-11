@@ -11,7 +11,7 @@ HTML: para la estructura de la página. || CSS: para el estilo y diseño visual 
 Este proyecto tiene como objetivo practicar y demostrar habilidades en HTML y CSS adquiridas en el curso.
 
 ## Ejecución
-Para ver el formulario en funcionamiento, simplemente abre el archivo index.html en cualquier navegador.
+Para ver la página en funcionamiento, simplemente abre el archivo index.html en cualquier navegador.
 
 ## Mejoras Futuras
 Diseño responsivo: optimizar mejor la página para dispositivos móviles y diferentes tamaños de pantalla.
